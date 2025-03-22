@@ -1,3 +1,5 @@
 fn main() {
-    println!("Hello, kc!");
+    let args: Vec<String> = std::env::args().collect();
+
+    dbg!(&args);
 }
