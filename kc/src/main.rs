@@ -1,5 +1,7 @@
 use std::process::exit;
 
+mod compiler;
+
 
 const VERSION:&str = "1.0.0";
 fn main() {
@@ -27,7 +29,7 @@ fn main() {
                 println!("error: invalid source file!");
                 exit(1);
             }
-            dbg!(&args[1]);
+            compiler::compile(filename);
         }else {
             println!("error: invalid command!");
             exit(1);
