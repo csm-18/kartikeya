@@ -1,8 +1,10 @@
 use std::{path::Path, process::exit};
 
+mod lexer;
+
 pub fn compile(filename:&str){
     let code = read_file(filename);
-    println!("'{filename}' contains:\n {code}");
+    lexer::lexer(&code);
 }
 
 fn read_file(filename:&str)-> String{
