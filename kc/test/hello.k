@@ -1,6 +1,6 @@
-//hello world example
+use io;
 
 fn main(){
-  k.println("hello world!");
+  println("hello world!"); // hello world!
 }
 
