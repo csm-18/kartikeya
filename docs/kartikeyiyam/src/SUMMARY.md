@@ -1,3 +1,5 @@
 # Summary
 
-- [Introduction](./chapter_1.md)
+[Kārtikeyīyaṃ](./Kārtikeyīyaṃ.md)
+
+[Introduction](./Introduction.md)
